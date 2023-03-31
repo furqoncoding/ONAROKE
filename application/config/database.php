@@ -79,7 +79,7 @@ $db['default'] = array(
 	'username' => 'tryme',
 	'password' => 'hacked',
 	'database' => 'onar',
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => 'onar_',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
