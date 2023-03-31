@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '10.10.50.21',
+	'hostname' => '10.10.50.21:3306',
 	'username' => 'tryme',
 	'password' => 'hacked',
 	'database' => 'onar',
@@ -95,27 +95,7 @@ $db['default'] = array(
 	'save_queries' => TRUE
 );
 
-$db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => '10.10.50.21',
-	'username' => 'tryme',
-	'password' => 'hacked',
-	'database' => 'onar',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => 'onar_',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
+
 
 $db['dbhcis'] = array(
 	'dsn'	=> '',
