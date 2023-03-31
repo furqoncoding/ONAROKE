@@ -75,22 +75,22 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '10.10.50.21',
+	'hostname' => '10.10.50.21:3306',
 	'username' => 'tryme',
 	'password' => 'hacked',
 	'database' => 'onar',
 	'dbdriver' => 'mysql',
 	'dbprefix' => 'onar_',
-	'pconnect' => FALSE,
+	'pconnect' => TRUE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
+	'cache_on' => TRUE,
 	'cachedir' => '',
 	'char_set' => 'utf8',
 	'dbcollat' => 'utf8_general_ci',
 	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
+	'encrypt' => TRUE,
+	'compress' => TRUE,
+	'stricton' => TRUE,
 	'failover' => array(),
 	'save_queries' => TRUE
 );
